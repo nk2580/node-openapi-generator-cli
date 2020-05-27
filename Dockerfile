@@ -95,6 +95,4 @@ RUN apk add --no-cache --virtual .build-deps-yarn curl gnupg tar \
   && apk del .build-deps-yarn \
   # smoke test
   && yarn --version
-RUN node -v
-RUN npm -v
-RUN yarn -v
+RUN npm install @openapitools/openapi-generator-cli -g
