@@ -1,4 +1,4 @@
-FROM openapitools/openapi-generator-cli
+FROM openapitools/openapi-generator-cli:v4.3.0
 
 ENV NODE_VERSION 12.16.1
 
